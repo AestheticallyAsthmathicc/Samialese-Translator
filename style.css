@@ -1,0 +1,39 @@
+body {
+    background-color: #1b1b2f;
+    display: flex;
+    justify-content: center;
+}
+
+#mainContainer {
+    margin-top: 200px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sentenceInput, #sentenceOutput {
+    font-family: 'Press Start 2P', cursive;
+    color: #e43f5a;
+    
+}
+
+#sentenceInput {
+    font-style: 16px;
+    border: none;
+    padding: 8px;
+    background: none;
+    border-bottom: #e43f5a 4px solid;
+}
+
+#sentenceOutput {
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 0 0 4px #e43f5a;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
