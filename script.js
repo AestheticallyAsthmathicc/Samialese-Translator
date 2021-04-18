@@ -1,7 +1,7 @@
 let inputSentenceObject = document.getElementById('sentenceInput');
 let outputSentenceObject = document.getElementById('sentenceOutput');
 
-inputSentenceObject.addEventListener('input', function() {
+inputSentenceObject.addEventListener('input', () => {
     let inputSentence = document.getElementById('sentenceInput').value;
 
     inputSentence = inputSentence.replace(/the worst/gi, 'afof');

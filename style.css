@@ -5,21 +5,22 @@ body {
 }
 
 #mainContainer {
-    margin-top: 200px;
+    margin-top: 100px;
     width: 70%;
     display: flex;
     flex-direction: column;
 }
 
-#sentenceInput, #sentenceOutput {
+#sentenceInput, #sentenceOutput, h1, h3 {
+    text-align: center;
     font-family: 'Press Start 2P', cursive;
     color: #e43f5a;
-    
 }
 
 #sentenceInput {
     font-style: 16px;
     border: none;
+    margin-top: 50px;
     padding: 8px;
     background: none;
     border-bottom: #e43f5a 4px solid;
@@ -29,6 +30,11 @@ body {
     margin-top: 100px;
     text-align: center;
     text-shadow: 0 0 4px #e43f5a;
+}
+
+#albumCover {
+    margin: auto;
+    width: 300px;
 }
 
 input:focus,
